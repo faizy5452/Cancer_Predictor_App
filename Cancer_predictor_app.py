@@ -8,7 +8,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 # Streamlit UI
 st.set_page_config(page_title="Cancer Prediction App")
 st.title("🔬 Cancer Prediction App")
-st.markdown("Enter comma-separated values of features to predict if it's **Cancer** or **Not Cancer**.")
+st.markdown("Enter 31 comma-separated  features to predict if it's **Cancer** or **Not Cancer**.")
 
 # Input field
 user_input = st.text_input("Enter features (comma-separated):")
